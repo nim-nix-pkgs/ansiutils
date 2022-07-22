@@ -1,0 +1,135 @@
+{
+  "nodes": {
+    "ansiutils-0_1_0": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-ansiutils-0_1_0": "src-ansiutils-0_1_0"
+      },
+      "locked": {
+        "dir": "0_1_0",
+        "lastModified": 1658201230,
+        "narHash": "sha256-5dOcWwYZ1OFSDlnYMll66HkHLy0WrjnF7q/9dYedi3M=",
+        "owner": "nim-nix-pkgs",
+        "repo": "ansiutils",
+        "rev": "a5cf519a7f07aa5228deb54ca7ba20c13452da8a",
+        "type": "github"
+      },
+      "original": {
+        "dir": "0_1_0",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "ansiutils",
+        "type": "github"
+      }
+    },
+    "ansiutils-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-ansiutils-master": "src-ansiutils-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1658201230,
+        "narHash": "sha256-5dOcWwYZ1OFSDlnYMll66HkHLy0WrjnF7q/9dYedi3M=",
+        "owner": "nim-nix-pkgs",
+        "repo": "ansiutils",
+        "rev": "a5cf519a7f07aa5228deb54ca7ba20c13452da8a",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "ansiutils",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1648105061,
+        "narHash": "sha256-Je25qNlH4xrH3+m6vIq6yPvdfQ80FRTwX4JOhrRLduc=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "f1ec5e2f15b9f717c33b6942ce7cb344ff868522",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-BBeCZwZImtjP3oYy4WogkQYy5OxNyfNciVSc1AfZgLQ=",
+        "path": "/nix/store/z8fi1f38y14lmsyhnph1l98qr3r9x7wr-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "ansiutils-0_1_0": "ansiutils-0_1_0",
+        "ansiutils-master": "ansiutils-master",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "src-ansiutils-0_1_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1651844094,
+        "narHash": "sha256-kRmAOV0bgWCUE0Bam8ZOJWyx4ALk6oh18jgokGwtOjk=",
+        "owner": "ansiwave",
+        "repo": "ansiutils",
+        "rev": "fc681228ecb51d82cfb65bb2c7fe47d90823321b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ansiwave",
+        "ref": "refs/tags/0.1.0",
+        "repo": "ansiutils",
+        "type": "github"
+      }
+    },
+    "src-ansiutils-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1655705638,
+        "narHash": "sha256-/LLszfd6ZdHHZ0fWMbABMp10rzM7FL69YGDQ0AM5Cv8=",
+        "owner": "ansiwave",
+        "repo": "ansiutils",
+        "rev": "96339ee3c42d466411ffd03101bb0efe3d1dc91f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ansiwave",
+        "ref": "refs/heads/master",
+        "repo": "ansiutils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
